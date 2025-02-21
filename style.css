@@ -1,4 +1,15 @@
-.Topbar{
-    display: grid;
-    
+.TopBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: RGB(204,204,204);
+
+}   
+.RightTopBar{
+height: 50px;
+background-color: white ;
+}   
+#Logo{
+    height: 100px;
 }
+
