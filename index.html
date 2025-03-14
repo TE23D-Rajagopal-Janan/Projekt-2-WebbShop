@@ -4,15 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SneakerShop.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Liking google font under -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-<div class="TopBar">
-    <h1>SneakerShop</h1>
-    <img id="Logo" src="./img/Sneaker Shop.png" alt="logo">
+    <header>
+    <h1 class="sidNamn">SneakerShop</h1>
+    <img class="Logo" src="./img/Sneaker Shop.webp" alt="logo">
     <!-- <input type="text"> -->
-    <button class="RightTopBar" type="button" onclick="kundvagn()"><img src="./img/Kundvagn.jpg" alt="Kundvagn" class="RightTopBar"></button>
+    <button class="kundvagn" onclick="kundvagn()"><i class="fa-solid fa-cart-plus"></i></button>
+        <!-- <ul class="dropdown">
+            <li>produck 1</li>
+            <li>produck 2</li>
+        </ul> -->
+</header>
+
+<div class="bar1">
+<p class="text1">Air Force 1</p>
+<img class="BildAF1" src="./img/Airforce.webp" alt="Air Force'1s">
+<p class="text2">1 195 kr</p>
+<button class="text3"><p>Lägg till i kundvagn</p></button>
+
+<p class="C2text1">Dunk Low</p>
+<img class="BildDuL" src="./img/Dunk lows.webp" alt="Dunk Low's">
+<p class="C2text2">1 199 kr</p>
+<button class="C2text3"><p>Lägg till i kundvagn</p></button>
+
+<p class="C3text1">Dunk Low</p>
+<img class="BildDefy" src="./img/Defy all day.webp" alt="Defy All Day">
+<p class="C3text2">799kr</p>
+<button class="C3text3"><p>Lägg till i kundvagn</p></button>
+</div>
+
+<div class="bar2">
+    <p id="text1">V2K Run</p>
+<img id="BildV2K" src="./img/V2K Run.webp" alt="V2K Run's">
+<p id="text2">1 499 kr</p>
+<button id="text3"><p>Lägg till i kundvagn</p></button>
+
+<p id="C2text1">Air Max 270</p>
+<img  id="BildAM2" src="./img/Air Max 270.png" alt="Air Max 270's">
+<p id="C2text2">1 999 kr</p>
+<button id="C2text3"><p>Lägg till i kundvagn</p></button>
+
+<p id="C3text1">Motiva</p>
+<img id="BildMotiva" src="./img/Motiva.webp" alt="Motiva">
+<p id="C3text2">1 309 kr</p>
+<button id="C3text3">
+    <p>Lägg till i kundvagn</p>
+</button>
+
+
+
+
 </div>
 
 </body>
