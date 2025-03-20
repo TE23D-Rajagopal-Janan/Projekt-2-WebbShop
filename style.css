@@ -8,7 +8,9 @@
     font-weight: bold;
     font-size: large;
 }
-
+    body {
+        font-family: 'YourGoogleFont', Arial, sans-serif;     /*Backup för font ifall den inte skulle funka*/
+    }
 Header{
     display: flex;
     flex-direction: row;    
@@ -321,4 +323,62 @@ margin-top: 10px;
     cursor: pointer;
     margin-left: 10px;
     color: red;
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    
+    .bar1{
+        /* margin-top: 75px; */
+        background-color: white;
+        display: grid;
+        grid-template-rows: 1,2,3,4;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+    }
+
+    .C3text1{
+        margin-left: 75px;
+        margin-bottom: 10px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 6;
+        grid-column-end: 7;
+        font-size:xx-large;
+    }
+    .BildDefy{
+        height: 200px;
+        width: 300px;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 6;
+        grid-column-end: 7;
+    }
+    .C3text2 
+    {
+        margin-left: 75px;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 6;
+        grid-column-end: 7;
+    }
+    .C3text3{
+        border: solid black;
+        background-color: #84C9E8;
+        margin-top: 5px;
+        margin-left: 40px;
+        margin-right: 150px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        grid-column-start: 6;
+        grid-column-end: 7; 
+    }
+    
+    .bar2{
+        margin-top: 75px;
+        background-color: white;
+        display: grid;
+        grid-template-rows: 1,2,3,4;
+        grid-template-columns: 200px 200px 200px 200px 200px 200px 200px, 200px;
+    }
+
 }

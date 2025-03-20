@@ -1,5 +1,5 @@
 function toggleDropdown() {
-  console.log("ngn tycker på knappen");
+  console.log("ngn tycker på varokorgen");
   let menu = document.getElementById("dropdown");
   menu.style.display = menu.style.display === "block" ? "none" : "block";
 }
@@ -9,7 +9,6 @@ function addItem(productName) //sätter namn till variablen productName
   let newItem = document.createElement("li"); // skapar en ny lista
   newItem.textContent = productName; //sätter namn
   menu.appendChild(newItem); // Lägger till produkten i listan
-
 
 let removeBtn = document.createElement("button");
 removeBtn.innerHTML = '<i class="fa-solid fa-minus"></i>'; 
@@ -21,7 +20,7 @@ removeBtn.addEventListener("click", function(event) {
 
 // Lägger till button i list 
 newItem.appendChild(removeBtn);
-menu.appendChild(newItem); 
+// menu.appendChild(newItem); 
 }
 
 function addItem1() { addItem("Air Force 1"); }
