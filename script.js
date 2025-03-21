@@ -11,7 +11,7 @@ function addItem(productName) //sätter namn till variablen productName
   menu.appendChild(newItem); // Lägger till produkten i listan
 
 let removeBtn = document.createElement("button");
-removeBtn.innerHTML = '<i class="fa-solid fa-minus"></i>'; 
+removeBtn.innerHTML = '<i class="fa-solid fa-trash"></i>'; 
 removeBtn.classList.add("remove-btn"); // När man klickar så tas det bort. 
 removeBtn.addEventListener("click", function(event) {
     event.stopPropagation(); // Gör så inget fel sker och fel <li> ändras
